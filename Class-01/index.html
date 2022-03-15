@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment-01</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-center text-black text-4xl">Class 01, Assignment</h1>
+    <script>
+      // Send data to Console with template Literal
+      let name = "zoynul";
+      let age = "29";
+      let skill = ["html", "css", "javascript", "php"];
+
+      $template_literal = `Hello, my name is ${name} and I am ${age} years old. I know ${skill[0]}, ${skill[1]}, ${skill[2]}, and ${skill[3]}`;
+
+      console.log($template_literal);
+
+      //Make a devs info console project
+
+      let info = "This is info message";
+      console.info(info);
+      // make a result marks project+
+      let Bangla = 85;
+      let English = 90;
+      let Mathsub = 95;
+
+      let total = Bangla + English + Mathsub;
+      let average = total / 3;
+      console.log(average);
+
+      // true or false / kobul project :)
+      let a = true;
+      let b = false;
+
+      if (a == true) {
+        console.log("a is true");
+      } else {
+        console.log("a is false");
+      }
+      if (b == false) {
+        console.log("b is false");
+      } else {
+        console.log("b is true");
+      }
+    </script>
+  </body>
+</html>
