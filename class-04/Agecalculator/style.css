@@ -1,0 +1,26 @@
+.header {
+  width: 600px;
+  margin: auto;
+  background: #ddd;
+  height: 300px; /* display: flex; */
+  text-align: center;
+  padding: 22px;
+}
+.box input {
+  width: 100%;
+  padding: 9px;
+  border-radius: 5px;
+}
+
+button#button {
+  background: skyblue;
+  padding: 10px;
+  color: #fff;
+  border-radius: 34px;
+  margin-top: 50px;
+}
+div#result {
+  color: #000;
+  padding: 10px;
+  margin-bottom: 30px;
+}
