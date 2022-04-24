@@ -1,0 +1,15 @@
+.container {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 50px 0px;
+}
+
+div#resultBox {
+  margin-bottom: 20px;
+}
+
+div#resultBox span {
+  color: green;
+}
