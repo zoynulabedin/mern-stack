@@ -7,7 +7,7 @@ students.forEach((fees)=>{
     `
     );
 })
-console.log(`-------------------------------------------------------------------`)
+console.log(`-------------------------------------------------------------------`);
 console.log(`total admission fees for all students is ${total_fees}`);
 
 
