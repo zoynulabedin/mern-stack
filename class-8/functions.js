@@ -43,6 +43,7 @@ function findbyGrade(grade) {
     })
 }
 
+// best score and final result
 function finalResult() {
     students.forEach((result)=>{
         if(result.CGPA > 3.80 ){
