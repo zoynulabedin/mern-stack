@@ -1,0 +1,158 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "zoynul",
+      "email": "trustcodernet@gmail.com",
+      "phone": "01735361634",
+      "url": "http://zoynul.com",
+      "skills": ["php", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 2,
+      "name": "jhon",
+      "email": "jhon@gmail.com",
+      "phone": "+92054578999",
+      "url": "http://jhon.com",
+      "skills": ["java", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 3,
+      "name": "chirs allen",
+      "email": "chirs@gmail.com",
+      "phone": "+92964578999",
+      "url": "http://chirs.com",
+      "skills": ["c++", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 4,
+      "name": "ian warner",
+      "email": "ian@gmail.com",
+      "phone": "+92424578999",
+      "url": "http://ian.com",
+      "skills": ["python", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 6,
+      "name": "merina",
+      "email": "merina@gmail.com",
+      "phone": "+99424578999",
+      "url": "http://merina.com",
+      "skills": ["AWS", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 7,
+      "name": "panther",
+      "email": "panther@gmail.com",
+      "phone": "+98424578999",
+      "url": "http://panther.com",
+      "skills": ["ReactNative", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 8,
+      "name": "james",
+      "email": "james@gmail.com",
+      "phone": "+92424578999",
+      "url": "http://james.com",
+      "skills": ["python", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 9,
+      "name": "jony",
+      "email": "jony@gmail.com",
+      "phone": "+92424578999",
+      "url": "http://jony.com",
+      "skills": ["React", "javascript", "react", "wordpress", "shopify"]
+    },
+    {
+      "id": 10,
+      "name": "munalisa",
+      "email": "munalisa@gmail.com",
+      "phone": "+92424578999",
+      "url": "http://munalisa.com",
+      "skills": ["c++", "javascript", "react", "wordpress", "shopify"]
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "shofiqul islam",
+      "email": "shofiqul@gmail.com",
+      "phone": "+882424578999",
+      "url": "http://shofiqul.com",
+      "skills": ["arabic", "english", "math", "science", "social"]
+    },
+    {
+      "id": 2,
+      "name": "mohammad",
+      "email": "muhammad@gmail.com",
+      "phone": "+882424578999",
+      "url": "http://mohammad.com",
+      "skills": ["Math", "english", "math", "science", "social"]
+    },
+    {
+      "id": 3,
+      "name": "Gofur",
+      "email": "gofur@gmail.com",
+      "phone": "+882424578999",
+      "url": "http://gofur.com",
+      "skills": ["arabic", "english", "math", "science", "social"]
+    },
+    {
+      "id": 4,
+      "name": "robiul",
+      "email": "robiul@gmail.com",
+      "phone": "+882424578999",
+      "url": "http://robiul.com",
+      "skills": ["arabic", "english", "math", "science", "social"]
+    },
+    {
+      "id": 5,
+      "name": "shamsul",
+      "email": "shamsul@gmail.com",
+      "phone": "+882424578999",
+      "url": "http://shamsul.com",
+      "skills": ["science", "english", "math", "social"]
+    },
+    {
+      "id": 6,
+      "name": "motaleb",
+      "email": "motaleb@gmail.com",
+      "phone": "+8801724578999",
+      "url": "http://motaleb.com",
+      "skills": ["math", "english", "science", "social"]
+    },
+    {
+      "id": 7,
+      "name": "moinul",
+      "email": "moinul@gmail.com",
+      "phone": "+880173531634",
+      "url": "http://moinul.com",
+      "skills": ["english", "math", "science", "social"]
+    },
+    {
+      "id": 8,
+      "name": "panna",
+      "email": "panna@gmail.com",
+      "phone": "+8808424578999",
+      "url": "http://panna.com",
+      "skills": ["Math", "english", "science", "social"]
+    },
+    {
+      "id": 9,
+      "name": "asraful",
+      "email": "asraful@gmail.com",
+      "phone": "+8806424578999",
+      "url": "http://asraful.com",
+      "skills": ["science", "social"]
+    },
+    {
+      "id": 10,
+      "name": "lotif",
+      "email": "lotif@gmail.com",
+      "phone": "+882424578999",
+      "url": "http://lotif.com",
+      "skills": ["arabic", "social"]
+    }
+  ]
+}
