@@ -26,7 +26,7 @@
 
 ### let text = "zoynul abedin";
 
-### let pattern = /^zoynul abedin$/i; ^( ক্যাপ ) চিহ্ন দিয়ে বুঝায় প্রথম ওয়ার্ড টা ম্যাচিং হতেই হবে, হলেই true, অথবা false $ (ডলার ) চিহ্ন শেষে দিলে, শেষ ওয়ার্ড টা ম্যাচিং হতেই হবে হলেই true, অথবা false
+### let pattern = /^zoynul abedin$/i; ^( ক্যাপ ) চিহ্ন দিয়ে বুঝায় প্রথম ওয়ার্ড টা ম্যাচিং হতেই হবে, হলেই true, অথবা false | $ (ডলার ) চিহ্ন শেষে দিলে, শেষ ওয়ার্ড টা ম্যাচিং হতেই হবে হলেই true, অথবা false
 
 ### console.log(pattern.test(text));
 
