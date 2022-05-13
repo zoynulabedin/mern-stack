@@ -1,4 +1,4 @@
-let text = "zoynul abedin";
-let pattern = /^zoynul abedin$/i;
 
-console.log(pattern.test(text));
+let text = "Hello World";
+
+text ? console.log(text) : console.log("Nice world");
