@@ -60,6 +60,6 @@
 
 ### let text = "bangladesh";
 
-### let pattern = /^[^a-z]\*$/;
+### let pattern = /^[^a-z]\*$/; এখানে [^a-z] দ্বারা বুজাচ্ছে , a-z ছাড়া বাকি সব ক্যারেক্টার ব্যাবহার করা যাবে
 
 ### console.log(pattern.test(text));
