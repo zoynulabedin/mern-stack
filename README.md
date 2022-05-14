@@ -63,3 +63,13 @@
 ### let pattern = /^[^a-z]\*$/; এখানে [^a-z] দ্বারা বুজাচ্ছে , a-z ছাড়া বাকি সব ক্যারেক্টার ব্যাবহার করা যাবে
 
 ### console.log(pattern.test(text));
+
+##### -----------------------------------------------------------------------------------------------
+
+### let mail = "zoynul@yahoo.com";
+
+### let pattern =/^[a-z0-9]\*@(gmail.com|yahoo.com)$/;দ্বারা বুজাচ্ছে , a-z এবং 0-9 \* ষ্টার দ্বারা সকল ক্যারেক্টার( a-z এবং 0-9 এর মধ্যে ) @ এবং gmail.com|yahoo.com) gmail.com অথবা yahoo.com হবে
+
+### let pattern =/^[a-z0-9]\*@[a-z]{2,}.com$/
+
+### console.log(pattern.test(mail));
