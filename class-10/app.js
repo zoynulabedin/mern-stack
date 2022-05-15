@@ -20,8 +20,8 @@ let phoneNumberPattern = /^(\+8801|01)[0-9]{9}$/;
 console.log(phoneNumberPattern.test(phoneNumber));
 
 // Create a password pattern 
-let pasword = "Xoy@_123";
-let passwordPattern = /^[a-z0-9!@"#$%&$]/;
+let pasword = "Xy@_1234";
+let passwordPattern = /^[a-zA-Z0-9#$%&'()*+,-./:;<=>?@[\]^_`{|}~]{8,16}/i;
 console.log(passwordPattern.test(pasword));
 
 // Create a zipcode pattern 
