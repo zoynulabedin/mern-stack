@@ -1,0 +1,9 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+div#parentbox {
+  display: flex;
+  flex-wrap: wrap;
+}

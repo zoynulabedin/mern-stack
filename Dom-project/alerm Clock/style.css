@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap");
+.clock-face {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  margin: auto;
+  font-family: "Orbitron", sans-serif;
+}
+.setalerm {
+  width: 200px;
+  margin: auto;
+  display: flex;
+
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.setalerm select {
+  width: 100px;
+  margin: auto;
+  margin-top: ;
+}
+.clock {
+  text-align: center;
+  margin: auto;
+}
+
+.clock-hour {
+  background: #000;
+  color: #fff;
+  padding: 2px;
+  font-size: 73px;
+  box-shadow: 1px 0px 7px 1px #000;
+}
+
+.clock-minute {
+  background: #000;
+  color: #fff;
+  padding: 2px;
+  font-size: 73px;
+  box-shadow: 1px 0px 7px 1px #000;
+}
+
+.clock-second {
+  background: #000;
+  color: #fff;
+  padding: 2px;
+  font-size: 73px;
+  box-shadow: 1px 0px 7px 1px #000;
+}
+#success {
+  color: green;
+}
