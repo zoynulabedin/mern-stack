@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Filter</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-7 shadow py-5">
+          <h3>Students and Teacher Filter</h3>
+          <div class="select-option d-flex">
+            <select class="form-control" name="" id="location">
+              <option value="dhaka">Dhaka</option>
+              <option value="pabna">Pabna</option>
+            </select>
+            <select class="form-control" name="" id="Sudents">
+              <option value="student">Students</option>
+              <option value="teacher">Teacher</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-7 shadow">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Address</th>
+                <th scope="col">Website</th>
+                <th scope="col">Skills</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>zoynul</td>
+                <td>trustcodernet@gmail.com</td>
+                <td>01735361634</td>
+                <td>Dhaka</td>
+                <td><a href="">www.zoynul.com</a></td>
+                <td>
+                  <ul>
+                    <li>React</li>
+                    <li>Wordpress</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="function.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
