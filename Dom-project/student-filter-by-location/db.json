@@ -2,18 +2,12 @@
   "students": [
     {
       "id": 1,
-      "name": "zoynul",
+      "name": "zoynul Abedin",
       "email": "trustcodernet@gmail.com",
       "phone": "01735361634",
       "address": "Dhaka",
       "url": "http://zoynul.com",
-      "skills": [
-        "php",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["php", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 2,
@@ -22,13 +16,7 @@
       "phone": "+92054578999",
       "address": "Dhaka",
       "url": "http://jhon.com",
-      "skills": [
-        "java",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["java", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 3,
@@ -37,13 +25,7 @@
       "phone": "+92964578999",
       "address": "Dhaka",
       "url": "http://chirs.com",
-      "skills": [
-        "c++",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["c++", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 4,
@@ -52,13 +34,7 @@
       "phone": "+92424578999",
       "address": "pabna",
       "url": "http://ian.com",
-      "skills": [
-        "python",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["python", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 6,
@@ -67,13 +43,7 @@
       "phone": "+99424578999",
       "address": "Dhaka",
       "url": "http://merina.com",
-      "skills": [
-        "AWS",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["AWS", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 7,
@@ -82,13 +52,7 @@
       "phone": "+98424578999",
       "address": "Dhaka",
       "url": "http://panther.com",
-      "skills": [
-        "ReactNative",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["ReactNative", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 8,
@@ -97,13 +61,7 @@
       "phone": "+92424578999",
       "address": "pabna",
       "url": "http://james.com",
-      "skills": [
-        "python",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["python", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 9,
@@ -112,13 +70,7 @@
       "phone": "+92424578999",
       "address": "pabna",
       "url": "http://jony.com",
-      "skills": [
-        "React",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["React", "javascript", "react", "wordpress", "shopify"]
     },
     {
       "id": 10,
@@ -127,155 +79,99 @@
       "phone": "+92424578999",
       "address": "pabna",
       "url": "http://munalisa.com",
-      "skills": [
-        "c++",
-        "javascript",
-        "react",
-        "wordpress",
-        "shopify"
-      ]
+      "skills": ["c++", "javascript", "react", "wordpress", "shopify"]
     }
   ],
   "teachers": [
     {
-      "id": 1,
+      "id": 11,
       "name": "shofiqul islam",
       "email": "shofiqul@gmail.com",
       "phone": "+882424578999",
       "address": "Dhaka",
       "url": "http://shofiqul.com",
-      "skills": [
-        "arabic",
-        "english",
-        "math",
-        "science",
-        "social"
-      ]
+      "skills": ["arabic", "english", "math", "science", "social"]
     },
     {
-      "id": 2,
+      "id": 12,
       "name": "mohammad",
       "email": "muhammad@gmail.com",
       "phone": "+882424578999",
       "address": "Dhaka",
       "url": "http://mohammad.com",
-      "skills": [
-        "Math",
-        "english",
-        "math",
-        "science",
-        "social"
-      ]
+      "skills": ["Math", "english", "math", "science", "social"]
     },
     {
-      "id": 3,
+      "id": 13,
       "name": "Gofur",
       "email": "gofur@gmail.com",
       "phone": "+882424578999",
       "address": "Dhaka",
       "url": "http://gofur.com",
-      "skills": [
-        "arabic",
-        "english",
-        "math",
-        "science",
-        "social"
-      ]
+      "skills": ["arabic", "english", "math", "science", "social"]
     },
     {
-      "id": 4,
+      "id": 14,
       "name": "robiul",
       "email": "robiul@gmail.com",
       "phone": "+882424578999",
       "address": "Dhaka",
       "url": "http://robiul.com",
-      "skills": [
-        "arabic",
-        "english",
-        "math",
-        "science",
-        "social"
-      ]
+      "skills": ["arabic", "english", "math", "science", "social"]
     },
     {
-      "id": 5,
+      "id": 15,
       "name": "shamsul",
       "email": "shamsul@gmail.com",
       "phone": "+882424578999",
       "address": "Dhaka",
       "url": "http://shamsul.com",
-      "skills": [
-        "science",
-        "english",
-        "math",
-        "social"
-      ]
+      "skills": ["science", "english", "math", "social"]
     },
     {
-      "id": 6,
+      "id": 16,
       "name": "motaleb",
       "email": "motaleb@gmail.com",
       "phone": "+8801724578999",
       "address": "Dhaka",
       "url": "http://motaleb.com",
-      "skills": [
-        "math",
-        "english",
-        "science",
-        "social"
-      ]
+      "skills": ["math", "english", "science", "social"]
     },
     {
-      "id": 7,
+      "id": 17,
       "name": "moinul",
       "email": "moinul@gmail.com",
       "phone": "+880173531634",
       "address": "Dhaka",
       "url": "http://moinul.com",
-      "skills": [
-        "english",
-        "math",
-        "science",
-        "social"
-      ]
+      "skills": ["english", "math", "science", "social"]
     },
     {
-      "id": 8,
+      "id": 18,
       "name": "panna",
       "email": "panna@gmail.com",
       "phone": "+8808424578999",
       "address": "Dhaka",
       "url": "http://panna.com",
-      "skills": [
-        "Math",
-        "english",
-        "science",
-        "social"
-      ]
+      "skills": ["Math", "english", "science", "social"]
     },
     {
-      "id": 9,
+      "id": 19,
       "name": "asraful",
       "email": "asraful@gmail.com",
       "phone": "+8806424578999",
       "address": "Dhaka",
       "url": "http://asraful.com",
-      "skills": [
-        "science",
-        "social"
-      ]
+      "skills": ["science", "social"]
     },
     {
-      "id": 10,
+      "id": 20,
       "name": "lotif",
       "email": "lotif@gmail.com",
       "phone": "+882424578999",
       "address": "pabna",
       "url": "http://lotif.com",
-      "skills": [
-        "arabic",
-        "social"
-      ]
+      "skills": ["arabic", "social"]
     }
   ]
 }
