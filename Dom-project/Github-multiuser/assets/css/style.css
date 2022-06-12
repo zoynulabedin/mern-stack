@@ -1,0 +1,28 @@
+.profile-img img {
+  max-width: 100%;
+}
+
+.header-section {
+  background: #24292f;
+}
+
+.github-logo {
+  color: #fff;
+  /* display: flex; */
+  /* align-items: center; */
+  font-size: 34px;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+}
+
+.main-menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}

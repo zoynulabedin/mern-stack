@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap");
+.allbtn > .row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.calculator {
+  width: 300px;
+  margin: auto;
+  background-color: rgb(80, 80, 80);
+  padding: 20px;
+}
+.display {
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+  text-align: right;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #000;
+}

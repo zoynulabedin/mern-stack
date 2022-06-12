@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food Application</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-header">
+              <h3>Food Application</h3>
+              <div class="msg"></div>
+            </div>
+            <div class="card-body">
+              <form id="foodForm">
+                <div class="my-3">
+                  <label for="Berayni">
+                    <input
+                      type="checkbox"
+                      name="food"
+                      value="Berayni"
+                      price="150"
+                    />
+                    Berayni
+                  </label>
+                </div>
+                <div class="my-3">
+                  <label for="">
+                    <input
+                      type="checkbox"
+                      name="food"
+                      value="Lacchi"
+                      price="80"
+                    />
+                    Lacchi
+                  </label>
+                </div>
+                <div class="my-3">
+                  <label for="Drinks">
+                    <input
+                      type="checkbox"
+                      value="Drinks"
+                      name="food"
+                      price="50"
+                    />
+                    Drinks</label
+                  >
+                </div>
+
+                <div class="my-3">
+                  <label for="Kassi"
+                    ><input
+                      type="checkbox"
+                      value="kassi"
+                      name="food"
+                      price="120"
+                    />
+                    Kassi</label
+                  >
+                </div>
+
+                <div class="my-3">
+                  <label for="Tehri">
+                    <input
+                      type="checkbox"
+                      value="Tehri"
+                      name="food"
+                      price="200"
+                    />
+                    Tehri</label
+                  >
+                </div>
+
+              
+              </form>
+            </div>
+            <div class="card-footer">
+              <h3 id="output"></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="popup">
+            <div class="popup-content shadow p-3">
+              <div class="popup-header d-flex justify-content-between">
+                <h3>Order Summary</h3>
+                <button class="close-btn">&times;</button>
+              </div>
+                <div class="popup-body">
+                    <div class="order-summary">
+                        <h4>TOtal Price: 300 tk</h4>
+                        <div class="payment-wrapper">
+                            <div class="bikash">
+                                <img src="assets/img/bikash.png" alt="">
+                                <button class="btn btn-primary">Pay with bikash</button>
+                            </div>
+                            <div class="rocket">
+                                <img src="assets/img/rocket.png" alt="">
+                                <button class="btn btn-primary">Pay with Rocket</button>
+                            </div>
+                        </div>
+                       
+                    </div>
+                   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app/function.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
+
