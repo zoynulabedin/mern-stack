@@ -2,7 +2,7 @@ const searchForm = document.getElementById('searchForm');
 const loadingBtn = document.getElementById('loadingBtn');
 const searchInput = document.getElementById('searchInput');
 const btnSearch = document.getElementById('btnSearch');
-const my_token = "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";
+const my_token = "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";
 searchForm.onsubmit = function(e) {
   e.preventDefault();
  const users =  fetch ('https://api.github.com/search/users?q=' + searchInput.value, {
