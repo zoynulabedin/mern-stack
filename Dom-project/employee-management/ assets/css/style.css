@@ -1,0 +1,14 @@
+tbody#allshow td {
+  vertical-align: middle;
+}
+
+tbody#allshow th {
+  vertical-align: middle;
+}
+
+tbody#allshow tr {
+  vertical-align: middle;
+}
+#form_update {
+  display: none;
+}

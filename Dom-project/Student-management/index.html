@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="registration-header bg-dark">
+      <div class="container">
+        <div class="row p-2">
+          <div class="col-lg-3">
+            <h4 class="text-uppercase text-white">Student Management</h4>
+          </div>
+          <div class="col-lg-9 text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="index.html">Registration</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="login.html">Login</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Header -->
+    <div class="registration-body pt-5 pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="card">
+              <div class="card-header text-center text-light bg-primary">
+                <h3>Student Management</h3>
+              </div>
+              <div class="card-body">
+                <div class="msg"></div>
+                <form id="stdMangeForm">
+                  <div class="form-group my-3">
+                    <label for="firstName">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      name="fname"
+                      placeholder="Enter name"
+                    />
+                  </div>
+                  <div class="form-group my-3">
+                    <label for="lastName">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      name="lname"
+                      placeholder="Enter name"
+                    />
+                  </div>
+
+                  <div class="form-group my-3">
+                    <label for="phone">Phone Number</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="phone"
+                      name="phone"
+                      placeholder="Enter name"
+                    />
+                  </div>
+                  <div class="form-group my-3">
+                    <label for="email">Email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="Enter name"
+                    />
+                  </div>
+
+                  <div class="form-group my-3">
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      name="password"
+                      placeholder="Password"
+                    />
+                  </div>
+
+                  <div class="form-group my-3 text-center">
+                    <button type="submit" class="btn btn-primary w-50">
+                      Create an account
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="card-footer">
+                <p class="text-center">
+                  Already have an account? <a href="login.html">Login</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="registration-footer p-2 bg-dark">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <p class="text-white">@Student Management</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app/function.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
