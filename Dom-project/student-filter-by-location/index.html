@@ -21,59 +21,218 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
     <div class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-md-7 shadow py-5">
-          <h3>Students and Teacher Filter</h3>
-          <div id="select" class="select-option d-flex">
-            <select class="form-control" name="" id="location">
-              <option value="Dhaka">Dhaka</option>
-              <option value="pabna">Pabna</option>
-            </select>
-            <select class="form-control" name="" id="person">
-              <option value="student">Students</option>
-              <option value="teacher">Teacher</option>
-            </select>
-            <button id="button" class="btn btn-primary">Filter</button>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="add-btn my-5">
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#students"
+              class="btn btn-primary"
+            >
+              Add New Student
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="search-btn my-5">
+            <form action="">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search..."
+                />
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="button">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="allItems" class="row justify-content-center">
+        <h5 class="dels"></h5>
+        <!-- single item -->
+
+        <!-- single item end -->
+      </div>
+    </div>
+    <div class="modal fade" id="students">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Add New Student</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="msg"></div>
+            <form id="studentsInfo">
+              <div class="form-group my-3">
+                <label for="photo">Photo</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="photo"
+                  name="photo"
+                  placeholder="Photo"
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="age">Age</label>
+                <input type="text" class="form-control" id="age"
+                name="age"/watch placeholder="Age" />
+              </div>
+              <div class="form-group my-3">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="name">Phone</label>
+                <input
+                  type="phone"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="location">Location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="location"
+                  name="location"
+                  placeholder="Location"
+                />
+              </div>
+              <div class="form-group my-3">
+                <button type="submit" class="btn btn-primary w-100">
+                  Add New
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-    <div class="container my-5">
-      <div class="row justify-content-center">
-        <div class="col-md-7 shadow" id="table">
-          <table class="table" border="0">
-            <thead>
-              <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Name</th>
-                <th scope="col">Email</th>
-                <th scope="col">Phone</th>
-                <th scope="col">Address</th>
-                <th scope="col">Website</th>
-                <th scope="col">Skills</th>
-              </tr>
-            </thead>
-            <tbody id="tbody">
-              <tr id="trrow">
-                <th scope="row">1</th>
-                <td>zoynul</td>
-                <td>trustcodernet@gmail.com</td>
-                <td>01735361634</td>
-                <td>Dhaka</td>
-                <td><a href="">www.zoynul.com</a></td>
-                <td>
-                  <ul>
-                    <li>React</li>
-                    <li>Wordpress</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    <!-- update modal -->
+
+    <div class="modal fade" id="update">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Edit Student Information</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="msg"></div>
+            <form id="update_std">
+              <div class="form-group my-3">
+                <label for="photo">Photo</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="photo"
+                  name="photo"
+                  placeholder="Photo"
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                />
+                <input
+                  type="hidden"
+                  class="form-control"
+                  id="indexx"
+                  name="indexNumber"
+                  value=""
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="age">Age</label>
+                <input type="text" class="form-control" id="age"
+                name="age"/watch placeholder="Age" />
+              </div>
+              <div class="form-group my-3">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="name">Phone</label>
+                <input
+                  type="phone"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="form-group my-3">
+                <label for="location">Location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="location"
+                  name="location"
+                  placeholder="Location"
+                />
+              </div>
+              <div class="form-group my-3">
+                <button type="submit" class="btn btn-primary w-100">
+                  Update
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
+
     <script src="function.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
