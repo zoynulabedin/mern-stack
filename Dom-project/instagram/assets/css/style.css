@@ -1,12 +1,72 @@
-.student-info ul {
+.header-area {
+  border-bottom: 1px solid #dbdbdb;
+  background-color: #fff;
+}
+
+.insta-search input {
+  background-color: #efefef;
+  border: none;
+  padding: 7px 30px;
+  border-radius: 10px;
+  position: relative;
+}
+.insta-search input:focus {
+  outline: none;
+}
+.search-icon {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  bottom: 0;
+}
+
+.insta-search {
+  position: relative;
+}
+
+.ions a {
+  display: inline-block;
+  padding: 10px;
+}
+.single-item img {
+  width: 50px !important;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-block !important;
+}
+.single-item {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px linear-gradient(to right, #ea2498, #e3b402) solid;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+.profile-img img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.switch button {
+  border: none;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: #fff;
+  color: #0095f6;
+}
+.name-user p {
+  font-size: 14px;
+  color: #292929;
   margin: 0;
   padding: 0;
-  list-style: none;
+}
+.name-user span {
+  font-size: 16px;
+  color: #999999;
+  margin: 0;
+  padding: 0;
 }
 body {
-  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
+  background-color: #fafafa;
 }
