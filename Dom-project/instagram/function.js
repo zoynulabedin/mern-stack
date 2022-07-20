@@ -71,3 +71,5 @@ const sendDatatoLocalStorage = (key, value) =>{
     const updatedata = (key, array) =>{
         localStorage.setItem(key, JSON.stringify(array));
      }
+
+     
