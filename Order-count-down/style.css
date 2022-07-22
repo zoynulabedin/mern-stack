@@ -1,0 +1,6 @@
+.orderCounter .my-3 {
+  flex: 1;
+}
+.orderCounter {
+  gap: 10px;
+}
