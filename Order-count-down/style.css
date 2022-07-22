@@ -4,3 +4,15 @@
 .orderCounter {
   gap: 10px;
 }
+.progress-barss {
+  width: 100%;
+  height: 10px;
+  background: red;
+  border-radius: 10px;
+  display: none;
+}
+
+.time-display {
+  font-size: 28px;
+  text-transform: uppercase;
+}

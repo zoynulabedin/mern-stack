@@ -13,12 +13,8 @@ form_countDown.onsubmit = (e) =>{
 
     let end_order =  new Date(date + ' ' + time).getTime();
     let interval = setInterval(() => {
-        let startTime = Date.now();
-        let diff_time = end_order - startTime;
-        let days = Math.floor(diff_time / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((diff_time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((diff_time % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((diff_time % (1000 * 60)) / 1000);
-        timeDsiplay.innerHTML = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
+        countdown(end_order, timeDsiplay);
+       
     }, 1000);
+
 }
