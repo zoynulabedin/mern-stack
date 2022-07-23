@@ -1,27 +1,43 @@
-const setAert = (message,type='danger') =>{
+const alertMessage = (message,type='danger') => {
     return `<div class="alert alert-${type}" role="alert">
     ${message}
   </div>`;
 }
 
-const countdown =(endtime , display='') => {
-    let startTime = Date.now();
-    let diff_time = Math.abs(startTime - endtime);
-    let days = Math.floor(diff_time / (1000 * 60 * 60 * 24));
-    let hours = Math.floor((diff_time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    let minutes = Math.floor((diff_time % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((diff_time % (1000 * 60)) / 1000);
-    timeDsiplay.innerHTML = `${days} days :${hours} hours :${minutes} minutes :${seconds} seconds`;
-    if( diff_time <= 100000){
-        timeDsiplay.style.color = 'red';
-    }else{
-        timeDsiplay.style.color = 'green';
-        
-    }
+// timeing function for
+const timeing = (date, time) => {
+    let currentTime = Date.now();
+    let endTime = new Date(date + ' ' + time).getTime();
+    let allmilisecons = Math.floor(Math.abs(endTime - currentTime));
+    let allSeconds = Math.floor(allmilisecons / 1000);
+    let allMinutes = Math.floor(allSeconds / 60);
+    let allhours = Math.floor(allMinutes / 60);
+    let allDays = Math.floor(allhours / 24);
+      
 
-    if(diff_time < 0){
-     
-        timeDsiplay.innerHTML = 'Time is up';
-    }
+      // final result of
 
+      let days =  allDays;
+      let hours = allhours % 24;
+      let minutes = allMinutes % 60;
+      let seconds = allSeconds % 60;
+
+      hourss.innerHTML = `${days} Days :${hours} hours :${minutes} minutes :${seconds} seconds`;
+
+      if(allSeconds <= 0) {
+          alerm.play();
+          clearInterval(interval);
+          hourss.innerHTML = 'Time is up';
+      }
+      if( allSeconds <= 1000) {
+          hourss.style.color = 'red';
+      }
+}
+
+// progressbar result
+
+const progressBar = (startTime, endTime) => {
+    const diffTime = endTime - startTime;
+    const changeTime = endTime - Date.now();
+    return Math.floor((100 * changeTime)/diffTime);
 }

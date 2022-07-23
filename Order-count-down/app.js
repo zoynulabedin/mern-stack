@@ -1,20 +1,43 @@
-const form_countDown = document.getElementById('form_countDown');
+const ordercounter = document.getElementById('ordercounter');
 const msg = document.querySelector('.msg');
-const timeDsiplay = document.querySelector('.time-display');
-form_countDown.onsubmit = (e) =>{
+const hourss = document.querySelector('.hours');
+const alerm = document.getElementById('alerm');
+const stop =  document.getElementById('stop');
+const per = document.querySelector('.per');
+let interval;
+ordercounter.onsubmit = (e) => {
     e.preventDefault();
-    let form_data = new FormData(e.target);
-    let formVal = Object.fromEntries(form_data.entries());
-    let {date, time} = formVal;
-
-    if(!time || !date){
-       msg.innerHTML = setAert( 'Please fill all fields','danger');
+    clearInterval(interval);
+    const order = new FormData(e.target);
+    const {date, time} = Object.fromEntries(order.entries());
+    
+    if(!date || !time) {
+        msg.innerHTML = alertMessage('Please fill all fields', 'danger');
     }
 
-    let end_order =  new Date(date + ' ' + time).getTime();
-    let interval = setInterval(() => {
-        countdown(end_order, timeDsiplay);
-       
-    }, 1000);
+    
+  
+    let currentTime = Date.now();
+    let endTime = new Date(date + ' ' + time).getTime();
+   
+   interval = setInterval(() => {
+    timeing(date, time);
 
+          
+            per.style.width = `${progressBar(currentTime, endTime)}%`;
+            if(progressBar(currentTime, endTime) <= 70 ){
+                per.style.backgroundColor = 'yellow';
+            }else if(progressBar(currentTime, endTime) <= 30){
+                per.style.backgroundColor = 'red';
+               
+            }else{
+                per.style.backgroundColor = 'green';
+            }
+            
+    },1000);
+
+}
+stop.onclick = () => {
+    alerm.pause();
+    clearInterval(interval);
 }
